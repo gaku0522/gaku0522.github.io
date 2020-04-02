@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.textarea{
+
+  margin-left: 200px;
+
+}
+
 .container {
   max-width: 1170px;
   width: 100%;
