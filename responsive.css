@@ -1,7 +1,7 @@
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
 
-  .wrapper{
+  .STEP{
     
     margin-left: 200px;
     
@@ -13,7 +13,7 @@
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
   
-  .wrapper{
+  .STEP{
     
     margin-left: 200px;
     
