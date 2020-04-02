@@ -1,17 +1,10 @@
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
 
-  #input_message,
-  #input_message2,
-  #input_message3,
-  #input_message4{
-    height: 80px;
-    width: 400px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    display: inline-block;
-    margin-bottom: 20px;
-    font-size: 25px;
+  .textarea{
+  
+    margin-left: 200px;
+  
   }
   
 }
@@ -20,17 +13,10 @@
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
   
-  #input_message,
-  #input_message2,
-  #input_message3,
-  #input_message4{
-    height: 80px;
-    width: 400px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    display: inline-block;
-    margin-bottom: 20px;
-    font-size: 25px;
+  .textarea{
+  
+    margin-left: 200px;
+  
   }
 
 }
