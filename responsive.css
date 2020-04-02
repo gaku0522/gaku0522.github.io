@@ -14,7 +14,7 @@
 }
   
   .STEP{
-    width: 600px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-left: 200px;
@@ -54,10 +54,10 @@
 }
   
   .STEP{
-    width: 400px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-left: 200px;
+    margin-left: 2000px;
   }
 
   p{
