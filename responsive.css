@@ -1,7 +1,7 @@
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
 
-  .textarea{
+  .wrapper{
   
     background: #3897fd;
     
@@ -13,7 +13,7 @@
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
   
-  .textarea{
+  .wrapper{
   
     background: #3897fd;
     
