@@ -1,7 +1,11 @@
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
 
+  .textarea{
   
+    background: #3897fd;
+    
+  }  
 
 }
 
