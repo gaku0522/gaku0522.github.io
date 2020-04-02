@@ -1,8 +1,22 @@
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
 
+  .container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.textarea{
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+  
   .STEP{
     width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   
@@ -25,8 +39,23 @@
 
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
+  
+  .container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.textarea{
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+  
   .STEP{
     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   p{
