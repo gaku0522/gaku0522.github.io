@@ -28,7 +28,7 @@
 
   p {
     text-align: center;
-    font-size: 80px;
+    font-size: 20px;
     padding: auto;
   }
 
@@ -63,7 +63,8 @@
 
   p{
     text-align: center;
-    font-size: 14px;
+    font-size: 70px;
+    padding: auto;
   }
 
   footer{
