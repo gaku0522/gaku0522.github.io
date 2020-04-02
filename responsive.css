@@ -1,9 +1,9 @@
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
 
-  .textarea{
+ img{
   
-    margin-left: 200px;
+   width: 830px;
   
   }
   
@@ -13,9 +13,9 @@
 /* スマホ向けレイアウト */
 @media (max-width: 670px) {
   
-  .textarea{
+  img{
   
-    margin-left: 200px;
+   width: 830px;
   
   }
 
