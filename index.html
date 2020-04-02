@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>試料作成のための計算サイト　：琉球大学理学部物理系</title>
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="css/style_sub.css">
+  <link rel="icon" href="picture/icon.ico">
+  <meta name="description" content="このサイトは試料作成に必要な元素の量を計算するサイトです． 物理の研究における試料の作成に役立でると幸いです．
+  琉球大学理学部物理系小林研究室">
+</head>
+<body>
+  <header>
+    <div class="top-wrapper">
+      <img src="picture/haikei.jpg" alt="背景">
+     <div class=head-container>
+       <h1>
+         LEARN TO PHYSICS.
+       </h1>
+
+       <h1>
+           LEARN TO BE CREATIVE.
+       </h1>
+
+       <p>
+         このサイトは試料作成に必要な元素の量を計算するサイトです．
+       </p>
+     </div>
+   </div>
+  </header>
+  <div class="wrapper">
+    <div class="container">
+
+      <div class="textarea">
+
+        <div class="STEP">
+          <h2>STEP1 必要な元素の入力</h2>
+          <p>H2OならH,Oのように，作りたい化合物に必要な元素を入力してください</p>
+          <div class="input">
+            <form id="form1" action="#">
+              <input type="text" id="input_message" placeholder="H,Oのように表記"class="textbox" >
+            </form>
+          </div>
+
+        </div>
+
+        <div class="STEP">
+          <h2>STEP2 組成比を入力</h2>
+          <p>H2Oなら2：1のように組成比を入力してください</p>
+
+            <div class="input">
+              <form id="form1" action="#">
+                <input type="text" id="input_message2" placeholder="2:1のように表記"class="textbox" >
+              </form>
+            </div>
+
+        </div>
+
+        <div class="STEP">
+          <h2>STEP3 実験で測った元素を入力</h2>
+          <p>STEP1の元素のうち，はじめに重さを測った物質を入力して下さい</p>
+        <div class="input">
+          <form id="form1" action="#">
+            <input type="text" id="input_message3" placeholder="元素を１つだけ入力"class="textbox" >
+          </form>
+        </div>
+
+        </div>
+          <div class="STEP">
+            <h2>STEP4 その元素の重さを入力</h2>
+            <p>STEP３で選んだ元素の重さを入力して下さい</p>
+          <div class="input">
+            <form id="form1" action="#">
+              <input type="text" id="input_message4" placeholder="数字を記入"class="textbox" >
+            </form>
+          </div>
+
+          </div>
+
+
+      </div>
+
+
+
+        <div class="btn">
+            <input type="button" onclick="func1()" value="作成！" id="botan" >
+        </div>
+
+        <div class="result-area">
+          <p id="result">ここに結果を表示します</p>
+          <div id="reset" class="hidden" onclick="func2()">
+            もう一度計算する？
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+
+  <!-- <div id="output_message"></div> -->
+  <script language="javascript" type="text/javascript" src="js_sub/sub.js">
+  </script>
+
+  <footer>
+    <div class="foot-container">
+      <p>琉球大学理学部　物質地球科学科　物理系　小林研究室</p>
+    </div>
+  </footer>
+
+</body>
+</html>
