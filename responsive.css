@@ -1,6 +1,11 @@
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
 
+  .STEP{
+    width: 600px;
+  }
+
+  
   .head-container h1{
     font-size: 32px;
   }
